@@ -17,9 +17,9 @@ public class Main {
         catList.add(cat4);
 
         for (Cat cat : catList) {
-            if (cat.getPattern().equals("ハチワレ")) {
+            if (cat.getBreed().equals("ハチワレ")) {
                 System.out.println("猫の名前は" + cat.getName() + "です。");
-                System.out.println("模様: " + cat.getPattern());
+                System.out.println("模様: " + cat.getBreed());
                 System.out.println("年齢: " + cat.getAge());
             }
         }

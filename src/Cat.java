@@ -1,12 +1,12 @@
 public class Cat {
 
     private String name;
-    private String pattern;
+    private String breed;
     private int age;
 
-    public Cat(String name, String pattern, int age) {
+    public Cat(String name, String breed, int age) {
         this.name = name;
-        this.pattern = pattern;
+        this.breed = breed;
         this.age = age;
     }
 
@@ -14,8 +14,8 @@ public class Cat {
         return name;
     }
 
-    public String getPattern() {
-        return pattern;
+    public String getBreed() {
+        return breed;
     }
 
     public int getAge() {
